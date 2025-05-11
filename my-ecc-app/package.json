@@ -1,0 +1,33 @@
+{
+  "name": "ecdsa-secp256k1",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "@emotion/react": "11.10.4",
+    "@emotion/styled": "11.10.4",
+    "@mui/material": "5.10.8",
+    "bignumber.js": "9.1.0",
+    "hash.js": "1.1.7",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@babel/runtime": "7.13.8",
+    "@vitejs/plugin-react": "^4.2.1",
+    "typescript": "5.8.3",
+    "vite": "^5.0.11"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
